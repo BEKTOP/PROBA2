@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/buttonHello"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="onClick"
+            android:text="Поздороваться" />
+
+        <Button
+            android:id="@+id/buttonCrowsCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Считаем ворон"
+            android:layout_below="@+id/buttonHello" />
+        <Button
+            android:id="@+id/buttonCatsCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Считаем котов"
+            android:layout_below="@+id/buttonCrowsCounter" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonCrowsCounter"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="157dp"
+            android:text="TextView"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/dig_LAC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_below="@+id/editText"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="28dp" />
+
+    </RelativeLayout>
+</LinearLayout>

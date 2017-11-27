@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="skins">Skins</string>
+    <string name="classic">Classic</string>
+    <string name="modern">New style</string>
+    <string name="about">about program</string>
+
+</resources>
